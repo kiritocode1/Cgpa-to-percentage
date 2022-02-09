@@ -1,20 +1,7 @@
 import Sinhgadlogo from "./logoSinhgad.png";
 import SinhgadBackground from "./blacktop.gif";
 import './App.css';
-
-const Logic = () => {
-  return (<div className="font-mono text-white h-20 flex justify-center items-center  pt-2 w-full">
-    <div className="text-3xl">CGPA to Percentile Converter</div>
-    
-  </div>);
-};
-
-
-
-
-
-
-
+import Logic from "./logic";
 
 function App() {
   return (
@@ -25,7 +12,7 @@ function App() {
         <a href="https://www.facebook.com/571373033071746/posts/1787434568132247/?sfnsn=wiwspwa" className="font-mono text-2xl text-white z-20 absolute    hover:underline decoration-indigo-500
          hover:animate-pulse pt-[12rem]"> NBN Sinhgad Technical Institude of Engineering.</a>
       </div>
-      <h3 className="w-full bg-black text-white font-mono text-right px-3">Project by Aryan kathawale</h3>
+      <h3 className="w-full bg-black text-white font-mono text-right px-3">~Project by <a href="https://twitter.com/kirito08922920" className="hover:underline decoration-gray-500 hover:animate-pulse">Aryan Kathawale</a></h3>
     <Logic/>
     </div>
   );
