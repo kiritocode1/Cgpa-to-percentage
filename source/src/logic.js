@@ -51,7 +51,7 @@ const Logic = () => {
     }   
         ,[cgpa])
 
-return (<div className="font-mono text-white  flex flex-col justify-center items-center  pt-2 w-full h-96">
+return (<div className="font-mono text-white  flex flex-col justify-center items-center  pt-2 w-full h-96 mb-6">
     <div className="text-3xl flex items-center">CGPA to Percentage Converter <MdOutlineDoubleArrow/></div>
     <div className="flex flex-col">
         <h1 className="text-xl py-2">Enter the Cgpa</h1>
