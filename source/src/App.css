@@ -34,5 +34,6 @@
   }
   to {
     transform: rotate(360deg);
+    background-color: rgb(00,00, 00);
   }
 }
