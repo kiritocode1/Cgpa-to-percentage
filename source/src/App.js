@@ -6,7 +6,7 @@ import Tldr from "./Appreciation";
 function App() {
   return (
     <div className="App bg-black">
-      <div className="w-auto h-[20rem] flex  flex-col items-center justify-between bg-black mx-auto relative" >
+      <div className="w-auto h-[29rem] flex  flex-col items-center justify-between bg-black mx-auto relative" >
         <img src={Sinhgadlogo} alt="sinhgad ima" className="w-60 h-70 z-10 absolute " />
         <img src={SinhgadBackground} alt="back" className="w-full h-full absolute object-contain" />
         <a href="https://www.facebook.com/571373033071746/posts/1787434568132247/?sfnsn=wiwspwa" className="font-mono text-2xl text-white z-20 absolute    hover:underline decoration-indigo-500

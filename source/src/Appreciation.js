@@ -1,7 +1,7 @@
 import React from "react";
 import { BiRightArrow  ,BiLeftArrow} from "react-icons/bi";
 import { CgArrowLongRightC } from "react-icons/cg";
-
+import  monophy  from "./monophy.gif";
 
 const Tldr = () => {
     return (
@@ -29,13 +29,19 @@ const Tldr = () => {
                     <p className="text-sm flex items-center ">Database Manager and varsion control<BiRightArrow /></p>
                 </div>
                                 <div className="flex justify-center gap-4  items-center text-sm">
-                    <a href="# " className="flex items-center hover:animate-pulse hover:underline  decoration-pink-600 text-pink-600  decoration-2"> <BiLeftArrow /> You</a>
+                    <a href="# " className="flex items-center hover:animate-pulse hover:underline  decoration-green-600 text-pink-600  decoration-2"> <BiLeftArrow /> You</a>
                     <CgArrowLongRightC/>
                     <p className="text-sm flex items-center ">for using the project 🖤🖤🖤. <BiRightArrow /></p>
                 </div>
                 
             </div>
+        <div className="w-full flex items-center justify-center  bg-black">
+                <img src={monophy} alt="cat code" />
+        </div>
     </div>);
 }; 
+
+
+
 
 export default Tldr

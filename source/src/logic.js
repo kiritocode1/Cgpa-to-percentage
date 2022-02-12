@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import { MdOutlineDoubleArrow } from "react-icons/md";
-import {TiArrowRightThick} from "react-icons/ti";
+import { TiArrowRightThick } from "react-icons/ti";
+import { AiOutlineAntDesign } from "react-icons/ai";
 
 const Logic = () => {
     const [cgpa, setcgpa] = useState(0.0);
@@ -56,7 +57,7 @@ return (<div className="font-mono text-white  flex flex-col justify-center items
         <h1 className="text-xl py-2">Enter the Cgpa</h1>
     <input type="range"  className="caret-sky-500  bg-slate-900 focus:outline-none   text-center focus:ring appearance-none focus:border-red-500   rounded-full text-white w-96   h-6 " value={cgpa} onChange={e=>setcgpa(parseFloat(e.target.value))} min="0" max="10" step="0.01" />{cgpa}
     </div>
-    <button className=" mt-6 w-60 rounded-md  hover:text-white hover:bg-sky-400 bg-slate-900 h-10 ring-sky-500 ring  hover:ring-white" onClick={()=>generate()}>Calculate percentage</button>
+    <button className=" mt-6 w-60 rounded-md  hover:text-white hover:bg-sky-400 bg-slate-900 h-10 ring-sky-500 ring  hover:ring-white  flex items-center justify-center" onClick={()=>generate()}><AiOutlineAntDesign/>Calculate percentage<AiOutlineAntDesign/></button>
     <div className={`${visible?"visible":"invisible"} font-mono text-xl w-96 h-50 flex flex-col ring ring-indigo-500 mt-10 rounded-lg animate-pulse`}>
         <div className={`  ${BackgroundColor} text-3xl flex justify-evenly`}>
             <h1 className="flex gap-2 items-center ">
