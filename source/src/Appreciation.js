@@ -28,6 +28,12 @@ const Tldr = () => {
                     <CgArrowLongRightC/>
                     <p className="text-sm flex items-center ">Database Manager and varsion control<BiRightArrow /></p>
                 </div>
+                                <div className="flex justify-center gap-4  items-center text-sm">
+                    <a href="https://www.instagram.com/sumit_kshirsagar_/" className="flex items-center hover:animate-pulse hover:overline  decoration-yellow-600 "> <BiLeftArrow /> You</a>
+                    <CgArrowLongRightC/>
+                    <p className="text-sm flex items-center ">for looking at the project 🖤🖤🖤. <BiRightArrow /></p>
+                </div>
+                
             </div>
     </div>);
 };
