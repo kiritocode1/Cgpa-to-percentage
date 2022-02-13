@@ -24,7 +24,7 @@ const Tldr = () => {
                     <p className="text-sm flex items-center ">Team Manager<BiRightArrow /></p>
                 </div>
                 <div className="flex justify-center gap-4  items-center text-sm">
-                    <a href="https://www.instagram.com/vibhor21_/" className="flex items-center hover:animate-pulse hover:line-through  decoration-yellow-600 text-[#800000] decoration-2"> <BiLeftArrow /> Swarali Tantak </a>
+                    <a href="https://www.instagram.com/swaralitantak/" className="flex items-center hover:animate-pulse hover:line-through  decoration-yellow-600 text-[#800000] decoration-2"> <BiLeftArrow /> Swarali Tantak </a>
                     <CgArrowLongRightC/>
                     <p className="text-sm flex items-center ">Database Manager and varsion control<BiRightArrow /></p>
                 </div>
