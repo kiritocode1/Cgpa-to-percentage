@@ -1,7 +1,7 @@
 import React from "react";
 import { BiRightArrow  ,BiLeftArrow} from "react-icons/bi";
 import { CgArrowLongRightC } from "react-icons/cg";
-import  monophy  from "./monophy.gif";
+import monophy from "./monophy.gif";
 
 const Tldr = () => {
     return (
