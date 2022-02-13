@@ -2,13 +2,20 @@ import React,{useState,useEffect} from "react";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import { TiArrowRightThick } from "react-icons/ti";
 import { AiOutlineAntDesign } from "react-icons/ai";
+import { useSpring ,animated } from "react-spring";
 
 const Logic = () => {
+    const [visible ,setvisible]=useState(false);
+    const anim = useSpring({
+        // from: {
+        //     opacity: 0
+        // },
+        opacity: visible ? 1 : 0
+    });
     const [cgpa, setcgpa] = useState(0.0);
     const [percentile,setpercentile]=useState(0);
     const [BackgroundColor,setBackgroundColor]=useState("text-green-500");
     const [grade,setgrade]=useState("--");
-    const [visible ,setvisible]=useState(false);
     const generate=()=>{
         setvisible(true);
         if(cgpa<4){
@@ -58,7 +65,7 @@ return (<div className="font-mono text-white  flex flex-col justify-center items
     <input type="range"  className="caret-sky-500  bg-slate-900 focus:outline-none   text-center focus:ring appearance-none focus:border-red-500   rounded-full text-white w-96   h-6 " value={cgpa} onChange={e=>setcgpa(parseFloat(e.target.value))} min="0" max="10" step="0.01" />{cgpa}
     </div>
     <button className=" mt-6 w-60 rounded-md  hover:text-white hover:bg-sky-400 bg-slate-900 h-10 ring-sky-500 ring  hover:ring-white  flex items-center justify-center" onClick={()=>generate()}><AiOutlineAntDesign/>Calculate percentage<AiOutlineAntDesign/></button>
-    <div className={`${visible?"visible":"invisible"} font-mono text-xl w-96 h-50 flex flex-col ring ring-indigo-500 mt-10 rounded-lg animate-pulse`}>
+    <animated.div className={` font-mono text-xl w-96 h-50 flex flex-col ring ring-indigo-500 mt-10 rounded-lg `} style={anim}>
         <div className={`  ${BackgroundColor} text-3xl flex justify-evenly`}>
             <h1 className="flex gap-2 items-center ">
                 grade<TiArrowRightThick/>
@@ -72,7 +79,7 @@ return (<div className="font-mono text-white  flex flex-col justify-center items
             <h1 className="flex items-center justify-evenly">cgpa<TiArrowRightThick/></h1>
             {cgpa}
         </div>
-    </div>
+    </animated.div>
 </div>);
 };
 
