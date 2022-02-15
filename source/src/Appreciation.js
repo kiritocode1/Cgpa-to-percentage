@@ -8,11 +8,7 @@ const Tldr = () => {
     <div className="bg-black text-4xl text-white w-full h-96 flex  flex-col justify-center items-center font-mono">
             <p className="flex items-center font-mono h-20 hover:underline decoration-green-600 hover:animate-pulse  decoration-wavy  decoration-4"><BiLeftArrow />Contributors<BiRightArrow/></p>
             <div className="w-full h-40 ">
-                <div className="flex justify-center gap-4  items-center text-sm">
-                    <a href="https://twitter.com/kirito08922920" className="flex items-center hover:animate-pulse hover:underline  decoration-slate-600  decoration-double text-gray-400 decoration-2"> <BiLeftArrow /> Aryan kathawale </a>
-                    <CgArrowLongRightC/>
-                    <p className="text-sm flex items-center ">Main contributor  and Programmer<BiRightArrow /></p>
-                </div>
+                
                             <div className="flex justify-center gap-4  items-center text-sm">
                     <a href="https://www.instagram.com/aadigawalii/" className="flex items-center hover:animate-pulse hover:underline  decoration-indigo-600  decoration-wavy text-orange-600 decoration-2"> <BiLeftArrow /> Aditya Gawali  </a>
                     <CgArrowLongRightC/>
@@ -27,6 +23,11 @@ const Tldr = () => {
                     <a href="https://www.instagram.com/swaralitantak/" className="flex items-center hover:animate-pulse hover:line-through  decoration-yellow-600 text-[#800000] decoration-2"> <BiLeftArrow /> Swarali Tantak </a>
                     <CgArrowLongRightC/>
                     <p className="text-sm flex items-center ">Database Manager and version control<BiRightArrow /></p>
+                </div>
+                <div className="flex justify-center gap-4  items-center text-sm">
+                    <a href="https://twitter.com/kirito08922920" className="flex items-center hover:animate-pulse hover:underline  decoration-slate-600  decoration-double text-gray-400 decoration-2"> <BiLeftArrow /> Aryan kathawale </a>
+                    <CgArrowLongRightC/>
+                    <p className="text-sm flex items-center ">Main contributor  and Programmer<BiRightArrow /></p>
                 </div>
                                 <div className="flex justify-center gap-4  items-center text-sm">
                     <a href="# " className="flex items-center hover:animate-pulse hover:underline  decoration-green-600 text-pink-600  decoration-2"> <BiLeftArrow /> You</a>
