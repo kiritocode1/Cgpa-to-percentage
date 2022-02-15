@@ -66,7 +66,7 @@ return (<div className="font-mono text-white  flex flex-col justify-center items
     </div>
     <button className=" mt-6 w-60 rounded-md  hover:text-white hover:bg-sky-400 bg-slate-900 h-10 ring-sky-500 ring  hover:ring-white  flex items-center justify-center" onClick={()=>generate()}><AiOutlineAntDesign/>Calculate percentage<AiOutlineAntDesign/></button>
     <animated.div className={` font-mono text-xl w-96 h-50 flex flex-col ring ring-indigo-500 mt-10 rounded-lg `} style={anim}>
-        <div className={`  ${BackgroundColor} text-3xl flex justify-evenly`}>
+        <div className={`  ${BackgroundColor} text-3xl flex justify-evenly ${visible?"animate-pulse":""}`}>
             <h1 className="flex gap-2 items-center ">
                 grade<TiArrowRightThick/>
             </h1>{grade}
