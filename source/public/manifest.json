@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Cgpa-to-percentile",
+  "name": "By 5 ppl ",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "aviato.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "aviato.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "aviato.png",
       "type": "image/png",
       "sizes": "512x512"
     }
