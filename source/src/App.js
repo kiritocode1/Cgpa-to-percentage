@@ -26,6 +26,6 @@ function App() {
       <Tldr/>
     </animated.div>
   );
-}
+}          
 
 export default App;

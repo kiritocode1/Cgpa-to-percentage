@@ -20,7 +20,7 @@ const Tldr = () => {
                     <p className="text-sm flex items-center ">Team Manager<BiRightArrow /></p>
                 </div>
                 <div className="flex justify-center gap-4  items-center text-sm">
-                    <a href="https://www.instagram.com/swaralitantak/" className="flex items-center hover:animate-pulse hover:line-through  decoration-yellow-600 text-[#800000] decoration-2"> <BiLeftArrow /> Swarali Tantak </a>
+                    <a href="https://wa.me/+918975065988?text=Hi%27,%20like%20to%20chat%20with%20you" className="flex items-center hover:animate-pulse hover:line-through  decoration-yellow-600 text-[#800000] decoration-2"> <BiLeftArrow />Om Kardile</a>
                     <CgArrowLongRightC/>
                     <p className="text-sm flex items-center ">Database Manager and version control<BiRightArrow /></p>
                 </div>
@@ -32,13 +32,16 @@ const Tldr = () => {
                                 <div className="flex justify-center gap-4  items-center text-sm">
                     <a href="# " className="flex items-center hover:animate-pulse hover:underline  decoration-green-600 text-pink-600  decoration-2"> <BiLeftArrow /> You</a>
                     <CgArrowLongRightC/>
-                    <p className="text-sm flex items-center ">for using the project 🖤🖤🖤. <BiRightArrow /></p>
+                    <p className="text-sm flex items-center ">for using the project. <BiRightArrow /></p>
                 </div>
                 
             </div>
+        <div className="w-full flex items-center justify-center bg-black text-center h-40">
+            🖤🖤🖤🖤🖤
+        </div>
         <div className="w-full flex items-center justify-center  bg-black">
                 <img src={monophy} alt="cat code" />
-        </div>
+            </div>
     </div>);
 }; 
 
