@@ -15,7 +15,7 @@ const Tldr = () => {
                     <p className="text-sm flex items-center "> presenter <BiRightArrow /></p>
                 </div>
                 <div className="flex justify-center gap-4  items-center text-sm">
-                    <a href="https://www.instagram.com/sumit_kshirsagar_/" className="flex items-center hover:animate-pulse hover:underline  decoration-red-600 decoration-dotted text-cyan-300 decoration-2"> <BiLeftArrow /> Sumit Kshirsagar</a>
+                    <a href="https://wa.me/+917038483127?text=Hi%27,%20like%20to%20chat%20with%20you" className="flex items-center hover:animate-pulse hover:underline  decoration-red-600 decoration-dotted text-cyan-300 decoration-2"> <BiLeftArrow />Samarth </a>
                     <CgArrowLongRightC/>
                     <p className="text-sm flex items-center ">Team Manager<BiRightArrow /></p>
                 </div>
