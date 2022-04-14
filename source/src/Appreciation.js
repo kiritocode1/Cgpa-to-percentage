@@ -41,7 +41,7 @@ const Tldr = () => {
                 </div>
                 
             </div>
-            <div className="flex items-center hover:animate-pulse">
+            <div className="flex items-center hover:animate-pulse mt-20">
                 <BiLeftArrow/> 
                 <a href="https://github.com/kiritocode1/Cgpa-to-percentage" className="hover:underline decoration-wavy mb-2 text-red-600">Source Code </a>
                 <BiRightArrow/> 
