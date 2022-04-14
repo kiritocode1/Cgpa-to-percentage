@@ -5,7 +5,7 @@ import monophy from "./monophy.gif";
 
 const Tldr = () => {
     return (
-    <div className="bg-black text-4xl text-white w-full h-96 flex  flex-col justify-center items-center font-mono">
+    <div className="bg-black text-4xl text-white w-full h-96 flex  flex-col justify-center items-center font-mono mt-20">
             <p className="flex items-center font-mono h-20 hover:underline decoration-green-600 hover:animate-pulse  decoration-wavy  decoration-4"><BiLeftArrow />Contributors<BiRightArrow/></p>
             <div className="w-full h-40 ">
                 
@@ -25,6 +25,11 @@ const Tldr = () => {
                     <p className="text-sm flex items-center ">Database Manager and version control<BiRightArrow /></p>
                 </div>
                 <div className="flex justify-center gap-4  items-center text-sm">
+                    <a href="https://wa.me/+919322860846?text=Hi%27,%20like%20to%20chat%20with%20you" className="flex items-center hover:animate-pulse hover:underline  decoration-indigo-600  decoration-double text-pink-400 decoration-2"> <BiLeftArrow />Abhidnya Gawali</a>
+                    <CgArrowLongRightC/>
+                    <p className="text-sm flex items-center ">Project manager and Maintainer<BiRightArrow /></p>
+                </div>
+                <div className="flex justify-center gap-4  items-center text-sm">
                     <a href="https://twitter.com/kirito08922920" className="flex items-center hover:animate-pulse hover:underline  decoration-slate-600  decoration-double text-gray-400 decoration-2"> <BiLeftArrow /> Aryan kathawale </a>
                     <CgArrowLongRightC/>
                     <p className="text-sm flex items-center ">Main contributor  and Programmer<BiRightArrow /></p>
@@ -36,6 +41,11 @@ const Tldr = () => {
                 </div>
                 
             </div>
+            <div className="flex items-center hover:animate-pulse">
+                <BiLeftArrow/> 
+                <a href="https://github.com/kiritocode1/Cgpa-to-percentage" className="hover:underline decoration-wavy mb-2 text-red-600">Source Code </a>
+                <BiRightArrow/> 
+        </div>
         <div className="w-full flex items-center justify-center bg-black text-center h-40">
             🖤🖤🖤🖤🖤
         </div>
